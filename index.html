@@ -6,12 +6,11 @@
     <title>Delta X | Premium Dining</title>
     
     <link rel="icon" type="image/png" href="assats/logo.png">
-    
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
-    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ogl/dist/ogl.umd.js"></script> 
     
     <link rel="stylesheet" href="style.css">
 </head>
@@ -68,7 +67,9 @@
             </nav>
 
             <div class="menu-toggle" id="mobile-menu">
-                <i class="fa-solid fa-bars"></i>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
         </div>
     </header>
@@ -91,6 +92,9 @@
     <main id="stacked-container">
         
         <section id="hero" class="stacked-card">
+            
+            <div id="light-rays" class="light-rays-container"></div>
+
             <div class="hero-content reveal fade-up">
                 <h1 class="hero-title">
                     <span class="block">THE BEST</span>
